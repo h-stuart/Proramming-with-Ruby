@@ -1,7 +1,7 @@
 names = ['Sally', 'Joe', 'Lisa', 'Henry']
 
 loop do
-  names.pop 
+  names.shift 
   puts names
 
   if names.length == 0
